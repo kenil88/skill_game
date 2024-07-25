@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Leaderboard extends Model
 {
+    use HasFactory;
     // Specify which attributes are mass assignable
     protected $fillable = [
         'date',
